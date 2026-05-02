@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Institutional Library Login</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script
+        id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { primary: "#191a1d", "background-light": "#f7f7f7", "background-dark": "#18191a" }, fontFamily: { display: "Manrope" }, borderRadius: { DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem" } } } };</script>
+    <style type="text/tailwindcss">
+        .nav-link {
+            @apply text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors duration-200;
+        }
+    </style>
+</head>
+
+<body
+    class="font-display bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 min-h-screen flex flex-col transition-colors duration-300">
+    <div class="fixed inset-0 opacity-[0.03] pointer-events-none z-0">
+        <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern height="40" id="grid" patternunits="userSpaceOnUse" width="40">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"></path>
+                </pattern>
+            </defs>
+            <rect fill="url(#grid)" height="100%" width="100%"></rect>
+        </svg>
+    </div>
+    <header
+        class="relative z-20 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a class="flex items-center gap-2.5 group" href="#" style="">
+                <div class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white">
+                    <span class="material-icons text-xl" style="">account_balance</span>
+                </div>
+                <span
+                    class="font-bold text-lg tracking-tight text-slate-900 dark:text-white group-hover:text-primary transition-colors"
+                    style="">MCST Library</span>
+            </a>
+            <nav class="hidden md:flex items-center gap-8"><a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Catalog</a>
+                <a class="nav-link text-primary dark:text-primary" href="#">Login</a>
+            </nav>
+            <div class="md:hidden">
+                <button class="p-2 text-slate-600 dark:text-slate-400" style="">
+                    <span class="material-icons" style="">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="relative z-10 flex-grow flex items-center justify-center px-6 py-12">
+        <div class="w-full max-w-md">
+            <div
+                class="bg-white dark:bg-slate-900 shadow-xl shadow-slate-200/50 dark:shadow-none border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden p-8 md:p-10">
+                <div class="text-center mb-10">
+                    <div
+                        class="inline-flex items-center justify-center w-16 h-16 bg-primary/10 dark:bg-primary/20 rounded-xl mb-6">
+                        <span class="material-icons text-primary text-4xl" style="">account_balance</span>
+                    </div>
+                    <h1 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-white" style="">MCST Library
+                        Management System</h1>
+                    <p class="mt-2 text-slate-500 dark:text-slate-400 font-medium" style="">
+                        Institutional Knowledge Portal
+                    </p>
+                </div>
+                <div class="mb-8 space-y-4">
+                    <div
+                        class="flex items-start gap-3 p-4 bg-primary/5 dark:bg-primary/10 rounded-lg border border-primary/10">
+                        <span class="material-icons text-primary text-xl mt-0.5" style="">info</span>
+                        <p class="text-sm leading-relaxed text-slate-700 dark:text-slate-300" style="">
+                            Access is restricted. <span class="font-bold text-slate-900 dark:text-white" style="">Please
+                                use your institutional Gmail account</span> to sign in to the library catalog and
+                            digital resources.
+                        </p>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <button
+                        class="w-full group relative flex items-center justify-center gap-3 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-200 py-3.5 px-4 rounded-lg font-semibold text-slate-700 dark:text-slate-200 shadow-sm"
+                        style="">
+                        <svg class="w-5 h-5" viewbox="0 0 24 24">
+                            <path
+                                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                                fill="#4285F4"></path>
+                            <path
+                                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                                fill="#34A853"></path>
+                            <path
+                                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"
+                                fill="#FBBC05"></path>
+                            <path
+                                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                                fill="#EA4335"></path>
+                        </svg>
+                        <span class="" style="">Sign in with Google</span>
+                        <div
+                            class="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity">
+                        </div>
+                    </button>
+                    <div class="flex items-center gap-4 py-2">
+                        <hr class="flex-grow border-slate-200 dark:border-slate-800" />
+                        <span class="text-xs uppercase tracking-widest text-slate-400 dark:text-slate-500 font-semibold"
+                            style="">Security Note</span>
+                        <hr class="flex-grow border-slate-200 dark:border-slate-800" />
+                    </div>
+                    <div class="text-center">
+                        <p class="text-xs text-slate-500 dark:text-slate-400" style="">
+                            Having trouble logging in? <br class="sm:hidden" />
+                            <a class="text-primary hover:underline font-medium" href="#" style="">Contact Library IT
+                                Support</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="relative z-10 w-full py-8 px-6 text-center">
+        <div
+            class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-xs font-medium text-slate-400 dark:text-slate-500 uppercase tracking-widest">
+            <a class="hover:text-primary transition-colors" href="#" style="">Terms of Service</a>
+            <span class="hidden md:block w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+            <a class="hover:text-primary transition-colors" href="#" style="">Privacy Policy</a>
+            <span class="hidden md:block w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+            <a class="hover:text-primary transition-colors" href="#" style="">Accessibility</a>
+            <span class="hidden md:block w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+            <span class="normal-case tracking-normal" style="">© 2024 Institutional Library System</span>
+        </div>
+    </footer>
+</body>
+
+</html>

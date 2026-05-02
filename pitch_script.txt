@@ -1,0 +1,79 @@
+# MCST Library Presentation Script
+# Target Duration: 4-5 Minutes
+# Context: Solving manual library system inefficiencies identified in Chapter 1.
+
+--------------------------------------------------------------------------------
+[0:00 - 0:40] INTRODUCTION & RESEARCH CONTEXT
+--------------------------------------------------------------------------------
+(Scene: Start on Home.html or Login)
+
+"Good day. Today, I am presenting MCST Library, a comprehensive digital solution designed to transform the traditional library experience. 
+
+Our research in Chapter 1 identified that manual library systems are no longer sustainable for modern academic institutions. The primary problems we address are the lack of real-time book tracking, the inefficiency of manual procurement, and the significant delays students face when trying to access high-demand resources. 
+
+MCST Library was built with one core objective: to streamline library operations and empower both students and staff through automation and data-driven management."
+
+--------------------------------------------------------------------------------
+[0:40 - 1:15] PUBLIC ACCESSIBILITY (Home.html)
+--------------------------------------------------------------------------------
+(Scene: Scroll through Home.html)
+
+"We start here at the Public Home Page. This is the student's primary entry point. One of our research objectives was to provide instant transparency. Students can search the entire catalog in seconds, seeing exactly what’s 'Available', 'Checked Out', or 'Reference Only'. 
+
+This solves the accessibility problem identified in our study by eliminating the need for students to physically visit the library just to check if a book is on the shelf."
+
+--------------------------------------------------------------------------------
+[1:15 - 1:45] SYSTEM OVERVIEW (dashboard.html)
+--------------------------------------------------------------------------------
+(Scene: Navigate to dashboard.html)
+
+"Moving into the admin suite, the Dashboard serves as the central nervous system of MCST Library. It gives librarians a real-time snapshot of system health—from total active users to books currently in circulation. 
+
+This directly solves the problem of 'Inventory Blindness' by providing immediate visibility into the library's status without needing to wait for manual month-end reports."
+
+--------------------------------------------------------------------------------
+[1:45 - 2:25] REQUESTS & RESERVATIONS (requests.html & reservations.html)
+--------------------------------------------------------------------------------
+(Scene: Show requests.html, then reservations.html)
+
+"Two of our most critical modules are Book Requests and Reservation Management. Previously, students had to fill out manual forms that were often lost or delayed. 
+
+Now, librarians can approve or reject procurement requests with a single click. The Reservation system ensures that high-demand books are fairly allocated and tracked, solving the problem of 'Resource Hoarding' and ensuring that every student has an equal opportunity to access critical academic materials."
+
+--------------------------------------------------------------------------------
+[2:25 - 3:00] CATALOGING & PROCUREMENT (cataloging.html & procurement.html)
+--------------------------------------------------------------------------------
+(Scene: Show cataloging.html, then procurement.html)
+
+"The Procurement Management and Cataloging modules handle the entire lifecycle of library assets. From the moment a book is requested to its formal entry into the digital catalog, the process is seamless. 
+
+This addresses our research objective of reducing administrative overhead and ensuring that the library's collection is always up-to-date and accurately documented for the academic community."
+
+--------------------------------------------------------------------------------
+[3:00 - 3:40] CIRCULATION & AUDITING (Circulation Management.html & inventory.html)
+--------------------------------------------------------------------------------
+(Scene: Show Circulation Management, then inventory.html)
+
+"Daily operations are handled in Circulation Management and Inventory Monitoring. The inventory module is a direct response to the problem of manual auditing errors. 
+
+By using barcode-driven tracking, librarians can perform full audits in hours rather than days, identifying missing or damaged books instantly. This protects the library’s physical assets and ensures students aren't searching for items that are no longer in stock."
+
+--------------------------------------------------------------------------------
+[3:40 - 4:25] ANALYTICS & DATA-DRIVEN DECISIONS (analytics.html)
+--------------------------------------------------------------------------------
+(Scene: Show analytics.html - Scroll through charts)
+
+"Perhaps the most powerful feature is Reports & Analytics. In Chapter 1, we highlighted the critical need for data-driven decisions. 
+
+This module provides deep insights into 'Borrowing Trends' and 'Resource Utilization'. By seeing which programs or titles are most in demand, administrators can make smarter procurement decisions—investing in books that maximize student success. This transforms the library from a static storage room into a dynamic academic hub."
+
+--------------------------------------------------------------------------------
+[4:25 - 5:00] SYSTEM RELIABILITY & CONCLUSION (users.html & backup.html)
+--------------------------------------------------------------------------------
+(Scene: Show backup.html, then end on the Logo)
+
+"Finally, we ensure system reliability through User Management and our Backup & Recovery modules. Security and data integrity were paramount in our research objectives. Automated backups protect years of academic history, while granular access control ensures student privacy.
+
+In summary, MCST Library is the solution to the systemic inefficiencies identified in our research. It automates the mundane, secures the valuable, and analyzes the complex—achieving our ultimate objective of a modern, efficient, and student-centered library.
+
+Thank you for your time."
